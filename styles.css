@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+  margin:0;
+  padding:0;
+}
+header button {
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+}
+body {
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  
+}
+.hButton {
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+}
+.hButton:hover {
+  cursor: pointer;
+  color:cadetblue;
+}
+
+button {
+  border : none;
+  background-color: inherit;
+}
+header {
+  display: flex;
+  background-color: white;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  font-size: 38px;
+  box-shadow: 3px 3px 15px black;
+}
+.middle {
+  background-color: inherit;
+  position: absolute;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 35%;
+  justify-content:space-evenly;
+  /* border : 1px solid black; */
+  align-items: center;
+}
+.bgc {
+  border : 1px solid black;
+  height: 92px;
+  margin-top: 5px;
+  border-radius: 10px;
+  background-color:black;
+  color:#F0EEED;
+  text-align: center;
+  padding: 3px;
+}
+.flipButton{
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  border:2px solid black;
+  height: 15%;
+  width:10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.flipButton button {
+  font-family: 'Oswald', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+.flipButton button:hover {
+  background-color: black;
+  color: white;
+  cursor:pointer;
+}
+.cf{
+  color:cadetblue;
+}
